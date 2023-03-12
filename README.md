@@ -14,3 +14,6 @@ My favorite part of programming is using my skills to help others. I enjoy colla
 - Git 🌳
 - Linux 🐧
 - Problem Solving 💡
+
+## Contact?
+- Discord :: lunar#6208
