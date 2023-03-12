@@ -1,16 +1,13 @@
-### Hi there 👋
+Hi there, I'm Lunar! 🌕
+I'm a passionate programmer who loves to create amazing things with code. I'm proficient in Rust, Python, and C# and always looking to expand my knowledge and skillset.
 
-<!--
-**lun4rian/lun4rian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+About Me
+I'm a self-taught programmer who has been coding for several years. I'm deeply passionate about programming and enjoy working on a variety of projects, from small scripts to large-scale applications.
 
-Here are some ideas to get you started:
+My favorite part of programming is using my skills to help others. I enjoy collaborating with others and sharing my knowledge and expertise to help them achieve their goals.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My Skills
+Rust 🦀
+Python 🐍
+C# 🔢
+Problem Solving 💡
