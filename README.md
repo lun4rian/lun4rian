@@ -8,8 +8,8 @@ I'm a self-taught programmer who has been coding for several years. I'm deeply p
 My favorite part of programming is using my skills to help others. I enjoy collaborating with others and sharing my knowledge and expertise to help them achieve their goals.
 
 ## My Skills
-- Rust 🦀
-- Python 🐍
+- RS 
+- C#
 
 ## Contact?
-- Discord :: lunar#6208
+- Discord :: lunarian#6208
