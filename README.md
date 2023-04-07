@@ -20,14 +20,9 @@ namespace practice
                     Console.WriteLine($"Lunarian is better {Thread.CurrentThread.ManagedThreadId} times!");
                 }));
             }
-
-            threads.ForEach(t =>
-            {
-                t.Start();
-                t.Join();
-            });
+            threads.ForEach(t => t.Start());
+            threads.ForEach(t => t.Join());
         }
     }
 }
-
 ```
