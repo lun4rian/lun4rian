@@ -27,7 +27,7 @@ namespace practice
                 {
                     var client = new HttpClient();
 
-                    var json = new{
+                    var json = new {
                         content = "Async Is just better YOLO"
                     };
 
