@@ -35,7 +35,7 @@ namespace practice
                     var new_json = new StringContent(json_serialized, Encoding.UTF8, "application/json");
 
                     client.DefaultRequestHeaders.Add("Authorization", "auth discord token");
-                    HttpResponseMessage response = await client.PostAsync("https://discord.com/api/v9/channels/1084268800242884679/messages", new_json);
+                    HttpResponseMessage response = await client.PostAsync("channel message api link", new_json);
                 }));
             }
 
