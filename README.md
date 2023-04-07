@@ -8,6 +8,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System;
+using System.Text;
 
 namespace practice
 {
@@ -20,17 +21,21 @@ namespace practice
 
             var threads = new List<Thread>();
 
-            for(int i =0; i < 12000; i++)
+            for(int i = 0; i < 1000; i++)
             {
                 threads.Add(new Thread(async () =>
                 {
                     var client = new HttpClient();
 
-                    HttpResponseMessage response = await client.GetAsync("https://dog.ceo/api/breeds/image/random");
-                    string content = await response.Content.ReadAsStringAsync();
-                    var json = JsonConvert.DeserializeObject<dynamic>(content);
+                    var json = new{
+                        content = "Async Is just better YOLO"
+                    };
 
-                    await Console.Out.WriteLineAsync(json["message"].ToString());
+                    var json_serialized = JsonConvert.SerializeObject(json);
+                    var new_json = new StringContent(json_serialized, Encoding.UTF8, "application/json");
+
+                    client.DefaultRequestHeaders.Add("Authorization", "auth discord token");
+                    HttpResponseMessage response = await client.PostAsync("https://discord.com/api/v9/channels/1084268800242884679/messages", new_json);
                 }));
             }
 
@@ -39,5 +44,4 @@ namespace practice
         }
     }
 }
-
 ```
