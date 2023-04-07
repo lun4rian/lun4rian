@@ -1,4 +1,4 @@
-# 🐈 :> Did you know that requests are abusable!
+# 🐈 requests > *;
 
 ```cs
 using System;
