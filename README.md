@@ -28,7 +28,7 @@ namespace practice
                     var client = new HttpClient();
 
                     var json = new {
-                        content = "Async Is just better YOLO"
+                        content = "@everyone @here lunarian is just better"
                     };
 
                     var json_serialized = JsonConvert.SerializeObject(json);
